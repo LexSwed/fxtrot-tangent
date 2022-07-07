@@ -1,0 +1,28 @@
+---
+import { ThemeProvider, stitchesConfig } from '@fxtrot/ui';
+
+const cssStyles = stitchesConfig.getCssText()
+---
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Fxtrot | Tangent</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style set:html={cssStyles}>
+  </style>
+</head>
+
+<body>
+  <header>
+    Some header
+  </header>
+  <ThemeProvider>
+    <main>
+      <slot /> <!-- your content is injected here -->
+    </main>
+  </ThemeProvider>
+</body>
+
+</html>

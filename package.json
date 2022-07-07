@@ -1,0 +1,26 @@
+{
+  "name": "tangent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "astro": "1.0.0-beta.64"
+  },
+  "devDependencies": {
+    "@astrojs/react": "^0.2.0",
+    "@fxtrot/ui": "^1.1.2",
+    "@heroicons/react": "^1.0.6",
+    "@stitches/react": "^1.2.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
